@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body{
+    background-color: #D8D8D8;
+    overflow-y: auto;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+#myProfile {
+    flex: 0 0 20%;
+    border: 1px solid black;
+
+}
+.profileBox {
+    width: 85%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+    justify-content: center;
+    background-color: #CACACA;
+    transform-origin: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
+}
+.fa-solid, .fas {
+    margin-left: 94%;
+    margin-top:2%;
+}
+.Profile{
+    text-align: center;
+}
+.Profile img {
+    width: 30%; /* 이미지의 너비 */
+    height: auto; /* 이미지의 높이를 너비에 맞춤 */
+    border-radius: 50%;
+    margin-top:5%;
+}
+.profileTop {
+    height: 25%;
+    width:100%;/* 상단 1/4 높이 */
+    background-color: #000000; /* 다른 색상 */
+    margin-left: 0%;
+    margin-top: 0%;
+}
+.myTest{
+    flex: 1;
+    border: 1px solid #afafaf;
+}
+.myName{
+    text-align:center;
+}
+.nickname {
+    color: #9FBCE9;
+    font-weight: bold;
+    font-size: 20px; /* 원하는 크기로 조정하세요 */
+    text-shadow:
+            -1px -1px 0 rgba(0, 0, 0, 0.5),
+            1px -1px 0 rgba(0, 0, 0, 0.5),
+            -1px  1px 0 rgba(0, 0, 0, 0.5),
+            1px  1px 0 rgba(0, 0, 0, 0.5),
+            0px 0px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.username{
+    margin-top:10%;
+    font-size:12px;
+
+}
+.userName{
+    font-size:18px;
+    font-weight: bold;
+}
+.profileUsername {
+    height: 25%;
+    width:50%;
+    background-color: #000000; /* 다른 색상 */
+    margin-left: 25%;
+    margin-top: 0%;
+    color:white;
+    font-size:15px;
+
+}
+.git-emai {
+    text-align:right;
+}
