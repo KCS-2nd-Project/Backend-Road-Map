@@ -16,7 +16,7 @@
     <div class="profileBox">
 <!--      <div class="profileTop"></div>-->
       <div class="profileTop">
-        <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+        <a class="setting" href="updateForm.html"><i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
         <div class ="Profile"><img th:if="${Profile != null }" th:src="${Profile}" >
       </div>
         <div class ="myName">
@@ -36,15 +36,17 @@
   </div>
 
   <div class ="myPointTotal">
+    <div class="pointBox">
     <div class="userPoint">
       <p class="point">My Point</p>
       <span th:text="${Point}"></span>
     </div>
     <div class ="Difficulty">
-      <p class="hard">hard <span th:text="${hard}"></span></p>
-      <p class="normal">normal <span th:text="${normal}"></span></p>
-      <p class="easy">easy <span th:text="${easy}"></span></p>
-      <span></span>
+      <p class="hard">hard   <span th:text="${hard}"></span></p>
+      <p class="normal">normal  <span th:text="${normal}"></span></p>
+      <p class="easy">easy   <span th:text="${easy}"></span></p>
+
+    </div>
     </div>
   </div>
   </div>

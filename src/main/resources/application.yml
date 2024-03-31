@@ -32,6 +32,10 @@ spring:
     password:
     driver-class-name: org.h2.Driver
 
+  devtools:
+    restart:
+      enabled: false
+
 server:
   port: 8080
   servlet:
@@ -40,10 +44,6 @@ server:
       charset: UTF-8
       enabled: true
       force: true
-
-  devtools:
-    restart:
-      enabled: false
 
 logging:
   level:

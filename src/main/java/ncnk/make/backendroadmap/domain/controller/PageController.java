@@ -21,7 +21,7 @@ public class PageController {
 
     //id값으로 url 변경
     @GetMapping("/{id}")
-    public String internet(@PathVariable Long id, Model model) {
+    public String getSubCategoryPage(@PathVariable Long id, Model model) {
         MainCategory mainCategory = mainCategoryService.findMainCategoryById(id);
         if (mainCategory != null) {
             String mainDocsTitle = String.valueOf(mainCategory.getMainDocsTitle());
