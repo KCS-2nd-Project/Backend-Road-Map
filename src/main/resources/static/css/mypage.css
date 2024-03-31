@@ -19,8 +19,6 @@ body{
 
 #myProfile {
     flex: 0 0 20%;
-    border: 1px solid black;
-
 }
 .profileBox {
     width: 85%;
@@ -54,7 +52,6 @@ body{
 }
 .myTest{
     flex: 1;
-    border: 1px solid #afafaf;
 }
 .myName{
     text-align:center;

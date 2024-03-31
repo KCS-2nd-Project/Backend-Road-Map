@@ -46,6 +46,7 @@ public class HomeController {
         if (sessionUser == null) {
             throw new SessionNullPointException("[ERROR] SessionUser is null");
         }
+        model.addAttribute("userPicture", user.getPicture());
         Member member = memberService.findMemberByEmail(sessionUser.getEmail()); // 회원 검색
         model.addAttribute("memberID", member.getMemberId());
         model.addAttribute("Profile", member.getProfile());
