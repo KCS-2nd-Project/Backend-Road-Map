@@ -22,7 +22,7 @@ body{
 }
 .profileBox {
     width: 85%;
-    height: 50%;
+    height: 42%;
     margin-top: 5%;
     margin-left: 10%;
     justify-content: center;
@@ -88,6 +88,14 @@ body{
     font-size:15px;
 
 }
-.git-emai {
-    text-align:right;
+.git-email{
+    margin-top:5%;
+}
+.git-email .github,
+.git-email .email {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* 원하는 간격으로 조정하세요 */
+    margin-left:5%;
+    margin-top:3%;
 }
